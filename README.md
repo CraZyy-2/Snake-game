@@ -5,18 +5,18 @@ A modern implementation of the classic **Snake** game built with Python's 🐢 T
 ---
 
 ## ✨ Features
-- 🎮 **Smooth keyboard controls** (WASD keys)  
-- 🏆 **Visual score tracking**  
-- 💥 **Collision detection** (walls & self-collision)  
-- ⚡ **Progressive difficulty** (speeds up as snake grows)  
-- 🎨 **Aesthetic color scheme** with light blue background  
-- 🖼️ **Clean border design**  
+-  **Smooth keyboard controls** (WASD keys)  
+-  **Visual score tracking**  
+-  **Collision detection** (walls & self-collision)  
+-  **Progressive difficulty** (speeds up as snake grows)  
+-  **Aesthetic color scheme** with light blue background  
+-  **Clean border design**  
 
 ---
 
 ## 🛠️ Requirements
-- 🐍 **Python 3.x**  
-- 🐢 **Turtle module** (included in the standard library)
+-  **Python 3.x**  
+-  **Turtle module** (included in the standard library)
 
 ---
 
@@ -29,7 +29,7 @@ cd snake-game
 ```
 2️⃣ No extra dependencies required—just Python.
 
-## 🎯 How to Play
+##  How to Play
 
 1️⃣ Run the game:
 ```bash
@@ -48,41 +48,41 @@ python snake_game.py
 ```
 ## 3️⃣ Game rules:
 
-🍎 Guide the snake to eat the red food
+ Guide the snake to eat the red food
 
-➕ Each food adds 10 points
+ Each food adds 10 points
 
-🚧 Avoid hitting walls or your own body
+ Avoid hitting walls or your own body
 
-🔄 Game automatically restarts after a collision
+ Game automatically restarts after a collision
 
 ## 🕹️ Game Elements
 
-🟩 Green squares: Snake (head & body)
+ Green squares: Snake (head & body)
 
-🔴 Red circle: Food to collect
+ Red circle: Food to collect
 
-🌊 Light blue border: Play area
+ Light blue border: Play area
 
-📊 Score display: Points shown at top of screen
+ Score display: Points shown at top of screen
 
 ## 📁 Project Structure
 snake-game/
-├── snake_game.py    # 🎮 Main game file
-├── README.md        # 📝 Documentation
-└── requirements.txt # 📦 Python requirements
+├── snake_game.py    #  Main game file
+├── README.md        #  Documentation
+└── requirements.txt #  Python requirements
 
 ## 🎨 Customization
 
 Easily tweak the game by editing the code:
 
-🌈 Colors: Change the color hex values
+ Colors: Change the color hex values
 
-⚡ Game speed: Adjust the delay variable
+ Game speed: Adjust the delay variable
 
-🖥️ Screen size: Update window.setup()
+ Screen size: Update window.setup()
 
-🏎️ Movement speed: Change the pixel increment
+ Movement speed: Change the pixel increment
 
 ## 📜 License
 
